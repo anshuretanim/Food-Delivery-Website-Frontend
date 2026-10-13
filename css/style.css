@@ -486,21 +486,6 @@
   box-shadow: var(--shadow);
 }
 
-.pricing-plan--complete::after {
-  content: "Best value";
-  position: absolute;
-  top: 6%;
-  right: -18%;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: var(--forest);
-  background-color: var(--lime);
-  padding: 0.8rem 8rem;
-  transform: rotate(45deg);
-}
-
 .pricing-plan--complete .plan-name {
   color: var(--lime);
 }
